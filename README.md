@@ -5,7 +5,7 @@ meta parser is parser of HTML meta tag for Python.
 
 ## How to use it?
 
-```
+```python
 >>> from metaparser import HTMLMetaParser
 >>> from urllib import request
 >>> parser = HTMLMetaParser()
@@ -15,6 +15,15 @@ meta parser is parser of HTML meta tag for Python.
 'https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png'
 >>> parser.og_description
 'GitHub is the best place to build software together. Over 4 million people use GitHub to share code.'
+```
+
+
+## How to Install?
+
+use pip or easy_install.
+
+```shell
+$ pip install metaparser
 ```
 
 
