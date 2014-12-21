@@ -1,5 +1,7 @@
 from html.parser import HTMLParser
 
+__all__ = ['HTMLMetaParser']
+
 
 class HTMLMetaParser(HTMLParser):
     def __init__(self):
