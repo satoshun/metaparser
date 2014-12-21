@@ -23,7 +23,7 @@ class HTMLMetaParser(HTMLParser):
                 self.og_image_url = attrs.get('content')
             elif attrs.get('property') == 'og:description':
                 self.og_description = attrs.get('content')
-            elif attrs.get('property') == 'description':
+            elif attrs.get('name') == 'description':
                 self.description = attrs.get('content')
 
     def handle_data(self, data):
