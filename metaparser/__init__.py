@@ -8,6 +8,7 @@ class HTMLMetaParser(HTMLParser):
         super(HTMLMetaParser, self).__init__()
         self._is_title = False
 
+        self.title = None
         self.description = self.og_description = None
         self.image_url = self.og_image_url = None
 
